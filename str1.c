@@ -6,6 +6,6 @@ void main(){
     scanf("%[^\n]s",str);
     len1=strlen(str);
     for(i=1;i<=len1;i++){
-        printf("%*.s\n",i,str);
+        printf("%.*s\n",i,str);
     }
 } 
